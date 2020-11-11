@@ -1,0 +1,119 @@
+.header-container h1 {
+    font-size: 65px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+.header-text {
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    padding: 0 20px 300px 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 50px;
+}
+
+.articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px;
+    height: auto;
+    
+}
+
+.article-post {
+    padding-bottom: 60px;
+}
+
+.article-post h3 {
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-align: center;
+    color: white;
+}
+
+.article-post p {
+    font-size: 1.8rem;
+    font-weight: 200;
+    text-align: center;
+    color: #666666;
+    padding: 50px;
+}
+
+.article-post button {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #444444;
+    border: 2px solid #444444;
+    background-color: white;
+    padding: 10px 60px 10px 60px;
+    border-radius: 4px;
+}
+
+.article-1 {
+    width: 100%;
+    background-image: url("../images/pic01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 120px 0;
+}
+
+.article-2 {
+    width: 100%;
+    background-image: url("../images/pic02.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 120px 0;
+}
+
+.article-3 {
+    width: 100%;
+    background-image: url("../images/pic03.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 120px 0;
+}
+
+.article-4 {
+    width: 100%;
+    background-image: url("../images/pic04.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 120px 0;
+}
